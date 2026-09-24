@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+/* ================= GLOBAL RESET ================= */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-width: 320px;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  background-color: #f9fafb;
+  color: #111827;
+  overflow-x: hidden;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* ================= FORM ELEMENTS ================= */
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+/* ================= BUTTON ================= */
+
+button {
+  cursor: pointer;
+}
+
+/* ================= LINKS ================= */
+
+a {
+  text-decoration: none;
+}
+
+/* ================= SELECTION ================= */
+
+::selection {
+  background-color: #16a34a;
+  color: white;
+}

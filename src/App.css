@@ -1,0 +1,27 @@
+/* =========================================
+   PESTCARE - GLOBAL APP STYLES
+   ========================================= */
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* Smooth scrolling */
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Remove default button outline */
+
+button {
+  font-family: inherit;
+}
+
+/* Better text selection */
+
+::selection {
+  background-color: #16a34a;
+  color: white;
+}
