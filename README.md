@@ -6,6 +6,16 @@ The platform allows customers to explore pest control services, create an accoun
 
 ---
 
+## 🌐 Live Demo
+
+**Live Website:**  
+https://pest-control-service-management-git-main-pest-care.vercel.app/
+
+**GitHub Repository:**  
+https://github.com/sonikumkum/Pest-Control-Service-Management
+
+---
+
 ## 🚀 Features
 
 - 🏠 Responsive Home Page
@@ -82,65 +92,83 @@ Pest-Control-Service-Management/
 ├── package.json
 ├── vite.config.js
 └── README.md
+```
 
-✨ Main Features
-🔐 Authentication
+---
+
+## ✨ Main Features
+
+### 🔐 Authentication
 
 Users can:
 
-Create an account
-Login using registered credentials
-Access a protected dashboard
-Logout from the frontend session
-📅 Service Booking
+- Create an account
+- Login using registered credentials
+- Access a protected dashboard
+- Logout from the frontend session
+
+---
+
+### 📅 Service Booking
 
 Customers can book services by providing:
 
-Full Name
-Email
-Phone Number
-Pest Control Service
-Property Type
-Preferred Date
-Preferred Time
-Address
-Problem Description
+- Full Name
+- Email
+- Phone Number
+- Pest Control Service
+- Property Type
+- Preferred Date
+- Preferred Time
+- Address
+- Problem Description
 
 The booking form includes client-side validation.
 
-📊 Customer Dashboard
+---
+
+### 📊 Customer Dashboard
 
 The dashboard provides:
 
-Total bookings
-Upcoming bookings
-Completed bookings
-Cancelled bookings
-Customer profile
-Booking history
-Booking details
-Booking cancellation
-👤 Profile Management
+- Total bookings
+- Upcoming bookings
+- Completed bookings
+- Cancelled bookings
+- Customer profile
+- Booking history
+- Booking details
+- Booking cancellation
+
+---
+
+### 👤 Profile Management
 
 Users can update:
 
-Full Name
-Email
-Phone Number
+- Full Name
+- Email
+- Phone Number
 
 The updated information is stored in LocalStorage.
 
-📱 Responsive Design
+---
+
+### 📱 Responsive Design
 
 The application is designed to work across:
 
-Desktop
-Tablet
-Mobile
+- Desktop
+- Tablet
+- Mobile
 
 Responsive layouts are implemented using Tailwind CSS.
 
-🔄 Application Flow
+---
+
+## 🔄 Application Flow
+
+```text
 Home
   │
   ├── Services
@@ -162,106 +190,162 @@ Home
   ├── About
   │
   └── Contact
-⚙️ Installation
-1. Clone the repository
+```
+
+---
+
+## ⚙️ Installation
+
+### 1. Clone the repository
+
+```bash
 git clone https://github.com/sonikumkum/Pest-Control-Service-Management.git
-2. Navigate to the project
+```
+
+### 2. Navigate to the project
+
+```bash
 cd Pest-Control-Service-Management
-3. Install dependencies
+```
+
+### 3. Install dependencies
+
+```bash
 npm install
-4. Start the development server
+```
+
+### 4. Start the development server
+
+```bash
 npm run dev
-5. Open in browser
+```
+
+### 5. Open in browser
+
+```text
 http://localhost:5173/
-📦 Available Scripts
-Start development server
+```
+
+---
+
+## 📦 Available Scripts
+
+### Start development server
+
+```bash
 npm run dev
-Build production version
+```
+
+### Build production version
+
+```bash
 npm run build
-Preview production build
+```
+
+### Preview production build
+
+```bash
 npm run preview
-🧪 Validation
+```
+
+---
+
+## 🧪 Validation
 
 The application includes client-side validation for:
 
-Required fields
-Email format
-Phone number format
-Password length
-Password confirmation
-Booking details
-Contact form fields
-🔒 Protected Routes
+- Required fields
+- Email format
+- Phone number format
+- Password length
+- Password confirmation
+- Booking details
+- Contact form fields
+
+---
+
+## 🔒 Protected Routes
 
 The Dashboard is protected using a custom React component:
 
+```text
 ProtectedRoute.jsx
+```
 
 Unauthenticated users attempting to access the Dashboard are redirected to the Login page.
 
-💾 Data Storage
+---
+
+## 💾 Data Storage
 
 For this frontend-only version, application data is stored using browser LocalStorage.
 
-Example storage keys:
+### Example storage keys
 
+```text
 pestCareUser
 pestCareBookings
 isLoggedIn
 userEmail
+```
 
 This approach is intended for demonstration and portfolio purposes.
 
-🔮 Future Improvements
+---
+
+## 🔮 Future Improvements
 
 The project can be extended with:
 
-REST API integration
-FastAPI / Node.js backend
-MySQL database
-Secure authentication
-JWT-based authorization
-Admin dashboard
-Service provider management
-Online payment integration
-Email notifications
-Appointment reminders
-Booking status updates
-Real-time notifications
-🎯 Project Objective
+- REST API integration
+- FastAPI / Node.js backend
+- MySQL database
+- Secure authentication
+- JWT-based authorization
+- Admin dashboard
+- Service provider management
+- Online payment integration
+- Email notifications
+- Appointment reminders
+- Booking status updates
+- Real-time notifications
+
+---
+
+## 🎯 Project Objective
 
 The main objective of PestCare is to demonstrate practical frontend development skills including:
 
-React component development
-React Hooks
-React Router
-Form handling
-Form validation
-LocalStorage
-Protected routes
-Responsive UI development
-Reusable components
-State management
-User-friendly dashboard design
-👩‍💻 Developer
+- React component development
+- React Hooks
+- React Router
+- Form handling
+- Form validation
+- LocalStorage
+- Protected routes
+- Responsive UI development
+- Reusable components
+- State management
+- User-friendly dashboard design
 
-Kumkum Soni
+---
+
+## 👩‍💻 Developer
+
+**Kumkum Soni**
 
 Frontend Developer | React.js | JavaScript | Data Analytics
 
-GitHub
+### GitHub
 
 https://github.com/sonikumkum
 
-LinkedIn
+### LinkedIn
 
 https://www.linkedin.com/in/kumkum-soni-9989b4214/
 
-📄 License
+---
+
+## 📄 License
 
 This project is created for educational, portfolio, and demonstration purposes.
-
-
-**Bas:** `README.md` → **Ctrl+A** → ye poora content paste → **Ctrl+S**. ✅
-
-Uske baad mujhe **`done`** bolna. Phir next hum `.gitignore` check karenge.
